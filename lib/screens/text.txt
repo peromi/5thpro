@@ -1,0 +1,53 @@
+SliverToBoxAdapter(
+            child: Container(
+              width: double.infinity,
+              height: 800,
+              color: deepblue,
+              alignment: Alignment.center,
+              child: Container(
+                width: 700,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        RichText(
+                            text: TextSpan(children: [
+                          TextSpan(
+                              text: "Enjoy ",
+                              style: TextStyle(
+                                  fontFamily: 'Mont',
+                                  fontSize: 42,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w800)),
+                          TextSpan(
+                              text: "real-time scoring",
+                              style: TextStyle(
+                                  fontFamily: 'Mont',
+                                  fontSize: 42,
+                                  color: darkgreen,
+                                  fontWeight: FontWeight.w800))
+                        ])),
+                        Text(
+                          "Our innovative platform features in-depth player performance metrics that keeps you ahead of the competition in real time without missing a beat of the game you love to win at!",
+                          textScaleFactor: 1.3,
+                          style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w400,
+                              color: Colors.white),
+                        ),
+                      ],
+                    ),
+                    SizedBox(width: 50),
+                    Image(
+                      image: AssetImage("assets/images/phone5.png"),
+                      width: 467,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          5thPro Fantasy Football we believe  football is a dynamic game, our gamers unique so we've created an app that lets you choose your dream team, competition even inviting your friends to join in to create a fun community!
